@@ -26,7 +26,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 
 
@@ -205,6 +206,9 @@ function App() {
             <Analytics />
          
           </Route>
+          <Route exact path="/">
+    <Redirect to="/simulations" />
+</Route>
         </Switch>
       
       </main>
