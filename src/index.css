@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Network options styling*/
+form.makeStyles-root-14 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 4;
+}
+
+.MuiPaper-root.makeStyles-paper-13.MuiPaper-elevation1.MuiPaper-rounded {
+  height: 100%;
+}
+
+path:hover {
+  fill: royalblue;
+}
