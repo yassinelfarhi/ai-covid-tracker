@@ -134,7 +134,7 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            AI COVID SIMULATOR
+            AI COVID TRACKER
           </Typography>
         </Toolbar>
       </AppBar>
