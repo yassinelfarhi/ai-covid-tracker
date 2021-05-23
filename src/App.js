@@ -23,7 +23,6 @@ import  { Container } from '@material-ui/core';
 import Icon from '@material-ui/core/Icon';
 
 import {
-  HashRouter,
   Switch,
   Route,
   Link,
@@ -112,7 +111,6 @@ function App() {
     
    
     <Container maxWidth="lg">
-       <HashRouter>
       <div className={classes.root}>
       <CssBaseline />
       <AppBar
@@ -213,7 +211,6 @@ function App() {
       
       </main>
     </div>
-    </HashRouter>
     </Container>
     
   );
