@@ -23,7 +23,7 @@ import  { Container } from '@material-ui/core';
 import Icon from '@material-ui/core/Icon';
 
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link,
@@ -112,7 +112,7 @@ function App() {
     
    
     <Container maxWidth="lg">
-       <Router>
+       <HashRouter>
       <div className={classes.root}>
       <CssBaseline />
       <AppBar
@@ -213,7 +213,7 @@ function App() {
       
       </main>
     </div>
-    </Router>
+    </HashRouter>
     </Container>
     
   );
