@@ -38,7 +38,6 @@ export default function ResultsTable({tableOptions,states}) {
   return (
     
     <TableContainer component={Paper}>
-      <p>test {states.firstState}</p>
       <Table className={classes.table} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>

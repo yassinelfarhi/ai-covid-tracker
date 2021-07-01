@@ -167,7 +167,6 @@ export default function Network(props) {
 
   return (
     <Grid container className={classes.root} spacing={2}>
-      {states.firstState}
       <Grid item xs={12}>
         <Grid container justify="center" spacing={2}>
           <Grid item xs={6}>
