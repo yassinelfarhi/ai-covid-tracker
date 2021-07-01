@@ -21,7 +21,7 @@ import  Cartography  from './components/Cartography';
 import { Analytics } from './components/Analytics';
 import  { Container } from '@material-ui/core';
 import Icon from '@material-ui/core/Icon';
-
+import './App.css';
 import {
   Switch,
   Route,
