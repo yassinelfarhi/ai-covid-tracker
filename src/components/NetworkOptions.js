@@ -94,9 +94,6 @@ export default function NetworkOptions({sendOptions,options}) {
   return (
     <Grid container spacing={3}>
       <Grid item xs={6}>
-        <Typography>
-          {firstState} - {secondState} - {thirdState}
-        </Typography>
         <Paper className={classes.paper}>
           <Typography variant="h6" gutterBottom>
             Epedimic Properties
